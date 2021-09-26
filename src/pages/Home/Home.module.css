@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+.searchWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1037px;
+    margin: 2.5rem;
+}
+
+.searchItemsWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchTextWrapper {
+    position: absolute;
+    top: 70px;
+    width: 101%;
+    background: rgba(9, 23, 24, 0.85);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 1;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.deleteValue {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    top: 22%;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.searchText {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 2%;
+    border-bottom: 4px solid #000000;
+    color: #CFCFCF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.searchText:hover {
+    background: rgba(16, 35, 36, 0.93);
+    transition: .3s;
+}
+
+.searchText:last-child {
+    border-bottom: none;
+}
+
+.homeInput {
+    width: 100%;
+    height: 69px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.33);
+    background: #F0F0F0;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.filmsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.3%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.paginationWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+

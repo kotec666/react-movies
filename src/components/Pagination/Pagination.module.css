@@ -1,0 +1,20 @@
+.paginationButton {
+    width: 300px;
+    height: 90px;
+    background: #091718;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.paginationButton:hover {
+    transition: .5s ease-in-out;
+    transform: translateY(5px);
+}

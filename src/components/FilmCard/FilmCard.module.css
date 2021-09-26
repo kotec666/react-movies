@@ -1,0 +1,135 @@
+.cardWrapper {
+    margin-top: 106px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .7s;
+}
+
+.cardWrapper:hover {
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+.detailCard {
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    height: 587px;
+    border-radius: 10px 40px 0px 0px;
+}
+
+.cardWrapper:hover .detailCard{
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: .4s;
+}
+
+.rating {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.runtime {
+    margin-top: 20px;
+    max-width: 157px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    word-break: break-all;
+    color: #FFFFFF;
+}
+
+.viewDetailsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 80px;
+    width: 237px;
+    height: 70px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background: #549A3C;
+    border-radius: 5px;
+}
+
+
+.filmCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    background: #091718;
+    border-bottom: 4px solid #000000;
+    border-radius: 10px 40px 0px 0px;
+}
+
+.imgWrapper {
+    width: 221px;
+    height: 331px;
+    margin-top: 22px;
+}
+
+.imgWrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.filmCardGenreWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 86px;
+    background: #091718;
+}
+
+.filmName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.filmYear {
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    color: #CFCFCF;
+}
+
+.genreName {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
+    color: #CFCFCF;
+}

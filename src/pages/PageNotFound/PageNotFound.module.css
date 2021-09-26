@@ -1,0 +1,44 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    color: #FFFFFF;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 158px;
+    margin-top: 2rem;
+    background: #091718;
+    border-radius: 5px;
+    font-size: 4rem;
+    line-height: 75px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
